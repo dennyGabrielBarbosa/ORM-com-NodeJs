@@ -16,7 +16,7 @@ module.exports = {
       data_inicio: {
         type: Sequelize.DATEONLY
       },
-      nivel: {
+      nivel_id: {
         allowNull: false,
         type: Sequelize.INTEGER,
         references: { model: 'Niveis', key: 'id' }
